@@ -6,7 +6,7 @@ port urllib2
 response = urllib2.urlopen('http://www.gutenberg.org/files/135/135-h/135-h.htm')
 html = response.read()
 
-# Cound how often the word "sad" occurs in les Mis
+# Count how often the word "sad" occurs in les Mis
 sad = 0
 
 list_of_words = html.split(' ')
